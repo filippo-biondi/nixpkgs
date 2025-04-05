@@ -40,7 +40,7 @@ buildNpmPackage' rec {
     owner = "bitwarden";
     repo = "clients";
     rev = "6503cc64fdc93e17dc789f6e57eb05d05e4a1486";
-    hash = "";
+    hash = "sha256-vmc6cCWQvKxSEeOsLAcFrah3MYki7uh3L8uduo8WDUI=";
   };
 
   patches = [
