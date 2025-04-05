@@ -76,7 +76,7 @@ buildNpmPackage' rec {
     "--ignore-scripts"
   ];
   npmWorkspace = "apps/desktop";
-  npmDepsHash = "sha256-fYZJA6qV3mqxO2g+yxD0MWWQc9QYmdWJ7O7Vf88Qpbs=";
+  npmDepsHash = "";
 
   cargoDeps = rustPlatform.fetchCargoVendor {
     inherit
