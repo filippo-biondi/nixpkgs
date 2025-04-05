@@ -34,12 +34,12 @@ let
 in
 buildNpmPackage' rec {
   pname = "bitwarden-desktop";
-  version = "main";
+  version = "desktop-v2025.4.0";
 
   src = fetchFromGitHub {
     owner = "bitwarden";
     repo = "clients";
-    rev = "main";
+    rev = "6503cc64fdc93e17dc789f6e57eb05d05e4a1486";
     hash = "";
   };
 
