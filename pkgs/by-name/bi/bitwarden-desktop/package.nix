@@ -86,7 +86,7 @@ buildNpmPackage' rec {
       cargoRoot
       patches
       ;
-    hash = "";
+    hash = "sha256-kdfl1WWwy6oTHYebccn4XE0WXqG4CYnbaX43b9jkrIM=";
   };
   cargoRoot = "apps/desktop/desktop_native";
 
