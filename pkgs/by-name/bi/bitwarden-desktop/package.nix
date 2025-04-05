@@ -34,7 +34,7 @@ let
 in
 buildNpmPackage' rec {
   pname = "bitwarden-desktop";
-  version = "desktop-v2025.4.0";
+  version = "2025.2.0";
 
   src = fetchFromGitHub {
     owner = "bitwarden";
